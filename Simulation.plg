@@ -6,13 +6,13 @@
 --------------------Configuration: SimulationShip - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP167.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C8.tmp" with contents
 [
 /nologo /G5 /MT /W3 /GX /O1 /I "Config" /I "GUI\Core" /I "GUI\Widget" /I "GUI\WM" /I "Simulation" /D "LCD_USE_WINSIM" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c"
+"C:\Documents and Settings\Administrator\桌面\clock\Application\picture.c"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP167.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP168.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C9.tmp" with contents
 [
 libcmt.lib libc.lib Simulation\GUISim.lib Simulation\Simulation.res winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /pdb:none /map:"Release/GUISimulation.map" /machine:I386 /out:"Exe/GUISimulation.exe" 
 ".\Release\MainTask.obj"
@@ -336,33 +336,16 @@ libcmt.lib libc.lib Simulation\GUISim.lib Simulation\Simulation.res winmm.lib ke
 ".\Release\SIM_X.obj"
 ".\Release\Main.obj"
 ]
-Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP168.tmp"
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C9.tmp"
 <h3>Output Window</h3>
 Compiling...
-MainTask.c
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(56) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(105) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(107) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(131) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(133) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(148) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(154) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(160) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(166) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(185) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(189) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(193) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(213) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(217) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(221) : warning C4020: 'printCalendar' : too many actual parameters
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(29) : warning C4101: 'pBitmap' : unreferenced local variable
-C:\Documents and Settings\Administrator\桌面\物联网基础实训2\clock\Application\MainTask.c(284) : warning C4029: declared formal parameter list different from definition
+picture.c
 Linking...
 
 
 
 <h3>Results</h3>
-GUISimulation.exe - 0 error(s), 17 warning(s)
+GUISimulation.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>

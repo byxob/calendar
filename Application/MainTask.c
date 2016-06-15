@@ -33,8 +33,8 @@ void MainTask(void) {
     GUI_SetColor(GUI_WHITE);//设置前景色
     GUI_Clear();
     GUI_SetColor(000000);//按钮背景色
-	//pBitmap=&bmpicture;
-    //GUI_DrawBitmap(pBitmap,10,10);
+	pBitmap=&bmpicture;
+    GUI_DrawBitmap(pBitmap,10,10);
 	//LCD_L0_FillRect(207, 201, 251, 224);text
     GUI_SetColor(GUI_WHITE);//设置字体颜色
 	GUI_SetBkColor(960616);//设置字体背景色
